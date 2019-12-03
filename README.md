@@ -44,8 +44,8 @@ A reposta ao este comando deve ser um tabela com as seguintes colunas:
 - IpRouteDest: o ip de destino
 - Interface: a interface local, da qual o próximo salto ocorrerá
 - NextHop: o ip do próximo salto
-- Type: o tipo de rota (3 - direta ou 4 - indireta)
-- Proto: o mecanismo utilizado para aprender a rota
+- Type: o tipo de rota (1-other, 2-invalid, 3-direct, 4-indirect)
+- Proto: o mecanismo utilizado para aprender a rota (1-other, 2-local, 3-netmgmt, 4-icmp)
 - Mask: a máscara da rede
 
 ### Referências
